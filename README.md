@@ -9,5 +9,5 @@ Assumes that /tmp/ is writable and will create an /tmp/archive directory to stor
 
 ## Requirements
 
-Python v2.7+
-pip install bearlib  (https://github.com/bear/bearlib)
+- Python v2.7+
+- pip install bearlib  (https://github.com/bear/bearlib)
