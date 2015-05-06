@@ -77,7 +77,7 @@ if __name__ == '__main__':
             data = {}
             if args.issues:
                 data['issues'] = []
-                for issue in repo.get_issues():
+                for issue in repo.get_issues(state="all"):
                     i = { "id":         issue.id,
                           "state":      issue.state,
                           "body":       issue.body,
